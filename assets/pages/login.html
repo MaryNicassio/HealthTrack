@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Login</title>
+    
+    <style>
+      body {
+        background: #08605F;
+      }
+    </style>
+
+  </head>
+  <body>
+    
+    <!-- Menu -->
+    <div class="container-fluid">
+        <div class="mt-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../../index.html" class="ms-5 text-light">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Login</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+      <div class="container-fluid">
+           <h1 class="text-light display-4 d-flex justify-content-center mt-2 mb-3 pe-4 ">Acesse sua conta</h1>
+           <form>
+         <div class="mb-3 ">
+            <label for="exampleInputEmail1" class="form-label">Usuario:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+         </div>
+         <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Senha:</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+         <div class="row">
+           <div class="col-12 cols-sm-12 col-md-6 col-lg-6">
+               <!-- botão para acessar conta -->
+                <div class="d-flex justify-content-center">
+                  <a href="../pages/dashboard.html" class="btn btn-outline-light btn-lg mt-5">Acessar Conta</a>
+                </div>
+            </div>
+            <div class="col-12 cols-sm-12 col-md-6 col-lg-6">
+
+                <!-- botão de esqueci senha -->
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-outline-light btn-lg mt-5 mb-1">Esqueci minha Senha</button>
+                </div>
+            </div>          
+         </div>
+           </form>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+                    <!-- botão facebook -->
+                    <div class=" d-flex justify-content-center">
+                     <a href="https://pt-br.facebook.com/" target="_blank"><img src="../images/facebook-circle-logo-156.png" alt="facebook" width="80%" height="80%" class="size"></a>  
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+                    <!-- botão google -->
+                    <div class="d-flex justify-content-center">
+                        <a href="https://accounts.google.com/signin/v2/identifier?hl=pt-BR&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Dpt-BR%26sa%3DX%26ved%3D0ahUKEwjW5tK5_pD2AhUSE7kGHawgA6QQPAgI&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"><img src="../images/google-plus-circle-logo-156.png" alt="google" width="80%" height="80%" class="size"></a>  
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4"> 
+                    <!-- botão apple -->
+                    <div class="d-flex justify-content-center">
+                        <a href="https://secure4.store.apple.com/br/shop/signIn?ssi=1AAABfxym2kkgQMoGnAghQkQeudLZAmqUpcOzPdavzYtPHQaOz2oUnccAAAA0aHR0cHM6Ly93d3cuYXBwbGUuY29tL2JyL3xodHRwczovL3d3dy5hcHBsZS5jb20vYnIvfAACATM_h1_AkBbh-ILJSHALMscMxBm25BW3Iu3osYpcrVCO" target="_blank"><img src="../images/apple-logo-156.png" alt="apple" class="d-flex justify-content-center" width="80%" height="80%"></a>  
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
